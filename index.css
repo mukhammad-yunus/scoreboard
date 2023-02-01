@@ -43,10 +43,8 @@ body {
     font-size: 18px;
     width: 45px;
     height: 45px;
-    line-height: 45px;
-    vertical-align: middle;
     color: #9AABD8;
-    text-align: center;
     border: 2px solid #9AABD8;
     border-radius: 5px;
+    background: none;
 }
