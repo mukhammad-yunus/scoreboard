@@ -25,9 +25,12 @@ body {
 
     color: #EEEEEE;
 }
-
+#score-right{
+    font-family: "Cursed Timer ULiL", sans-serif;
+    src: url(CursedTimer.ttf);
+}
 .scores {
-    font-family: 'Cursed Timer ULiL';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 90px;
