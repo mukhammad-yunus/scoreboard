@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    text-align: center;
     
 }
 
@@ -8,7 +8,9 @@ body {
     display: flex;
     justify-content: space-around;
     width: 600px;
-    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
 }
 .points {
     display: flex;
@@ -16,34 +18,35 @@ body {
     font-family: "Cursed Timer ULiL";
 }
 .player-name {
+    margin: 65px 65px 20px 65px;
     font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
     font-size: 40px;
     line-height: 36px;
     /* text-align: center; */
-
     color: #EEEEEE;
 }
-#score-right{
-    font-family: "Cursed Timer ULiL", sans-serif;
-    src: url(CursedTimer.ttf);
-}
+
 .scores {
-    
-    font-style: normal;
-    font-weight: 400;
+    margin:0 65px 25px 65px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
     font-size: 90px;
     text-align: center;
     color: #F94F6D;
-
-
+    background: #080001;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
 }
 
 .addpoint {
+    margin: 5px;
     font-size: 18px;
     width: 45px;
     height: 45px;
-    border: 1px solid black;
-    padding:10px;
+    line-height: 45px;
+    vertical-align: middle;
+    color: #9AABD8;
+    text-align: center;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
 }
