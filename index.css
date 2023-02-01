@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "CursedTimerUlil-Aznm";
+    src: url("CursedTimerUlil-Aznm.ttf") format("truetype");
+  }
+  
 body {
     text-align: center;
     
@@ -15,7 +20,7 @@ body {
 .points {
     display: flex;
     justify-content: center;
-    font-family: "Cursed Timer ULiL";
+    font-family: "CursedTimerUlil-Aznm", sans-serif;
 }
 .player-name {
     margin: 65px 65px 20px 65px;
@@ -28,7 +33,7 @@ body {
 
 .scores {
     margin:0 65px 25px 65px;
-    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-family: "CursedTimerUlil-Aznm", sans-serif;
     font-size: 90px;
     text-align: center;
     color: #F94F6D;
