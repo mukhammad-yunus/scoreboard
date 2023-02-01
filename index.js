@@ -1,17 +1,30 @@
 let addLeftEL=document.getElementById("score-left")
 let addRightEl=document.getElementById("score-right")
 
-let score=0
-
+let leftscore=0
+let rightscore=0
 function addLeftOne(){
-    score+=1
-    addLeftEL.textContent=score
+    leftscore+=1
+    addLeftEL.textContent=leftscore
 }
 function addLeftTwo(){
-    score+=2
-    addLeftEL.textContent=score
+    leftscore+=2
+    addLeftEL.textContent=leftscore
 }
 function addLeftThree(){
-    score+=3
-    addLeftEL.textContent=score
+    leftscore+=3
+    addLeftEL.textContent=leftscore
+}
+
+function addRightOne(){
+    rightscore+=1
+    addRightEl.textContent=rightscore
+}
+function addRightTwo(){
+    rightscore+=2
+    addRightEl.textContent=rightscore
+}
+function addRightThree(){
+    rightscore+=3
+    addRightEl.textContent=rightscore
 }
