@@ -28,3 +28,10 @@ function addRightThree(){
     rightscore+=3
     addRightEl.textContent=rightscore
 }
+
+function newGame(){
+    rightscore=0
+    leftscore=0
+    addRightEl.textContent=rightscore
+    addLeftEL.textContent=leftscore
+}
